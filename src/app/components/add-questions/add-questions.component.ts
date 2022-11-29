@@ -26,10 +26,10 @@ export class AddQuestionsComponent implements OnInit {
       question: f.value.question,
     };
     f.reset();
-    this.http.post(this.urls.questions, toAdd).subscribe((question) => {
-      console.log(question);
-      this.data.questions.push(question);
-    });
+    // this.http.post(this.urls.questions, toAdd).subscribe((question) => {
+    //   console.log(question);
+    //   this.data.questions.push(question);
+    // });
     this.message = !this.message;
   }
   toggleMessage() {

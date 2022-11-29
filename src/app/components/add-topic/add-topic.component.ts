@@ -26,10 +26,12 @@ export class AddTopicComponent implements OnInit {
       questions: [],
     };
     f.reset();
-    this.http.post(this.urls.topics, toAdd).subscribe((course) => {
-      console.log(course);
-      this.data.topics.push(course);
-    });
+    // with mock-database
+    // this.http.post(this.urls.topics, toAdd).subscribe((course) => {
+    //   console.log(course);
+    //   this.data.topics.push(course);
+    // });
+    // end of mockdb
     this.message = !this.message;
   }
   toggleMessage() {
