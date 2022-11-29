@@ -1,0 +1,59 @@
+<app-header></app-header>
+<div class="courses">
+  <div class="nav">
+    <div class="menus" *ngIf="sidemenu">
+      <app-menu
+        title="topics"
+        [ngStyle]="{ 'background-color': 'maroon' }"
+        [(menutoggled)]="menutoggled"
+        (menutoggledChange)="menutoggled = $event"
+      ></app-menu>
+      <div *ngIf="'topics' == menutoggled" class="navigation">
+        <app-course
+          *ngFor="let topic of data.topics"
+          (click)="toggleView(topic.name)"
+          [topic]="topic.name"
+        ></app-course>
+        <!-- <app-course (click)="toggleView('john')"></app-course>
+      <app-course (click)="toggleView('okello')"></app-course> -->
+      </div>
+      <app-menu
+        title="forms"
+        [ngStyle]="{ 'background-color': 'blue' }"
+        [(menutoggled)]="menutoggled"
+        (menutoggledChange)="menutoggled = $event"
+      ></app-menu>
+      <div *ngIf="'forms' == menutoggled" class="navigation">
+        <button (click)="toggleForms('add-topic')">add-topic</button>
+        <button (click)="toggleForms('add-question')">add-question</button>
+      </div>
+    </div>
+    <div
+      class="toggle-button"
+      (click)="sideMenuToggled()"
+      [ngStyle]="{ 'background-color': 'grey' }"
+    >
+      <fa-icon [icon]="sideIcon"></fa-icon>
+    </div>
+    <!-- <div class="menu">
+      <h3 (click)="toggleMenu()"><fa-icon [icon]="icon"></fa-icon> FORMS</h3>
+    </div> -->
+  </div>
+  <div class="view">
+    <!-- <div
+      class="onboardMessage"
+      [ngStyle]="{ height: '90vh', 'background-color': 'gold' }"
+    >
+      <p>on boardin just beacme easier</p>
+      <button>click here to get started</button>
+    </div> -->
+    <div class="questions" *ngIf="'questions' == view">
+      <p *ngFor="let qn of questions">
+        <app-snbtn [sn]="qn.n"></app-snbtn>
+        {{ qn.question }}
+      </p>
+    </div>
+
+    <app-forms [view]="view"></app-forms>
+  </div>
+</div>

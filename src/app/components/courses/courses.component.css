@@ -1,0 +1,50 @@
+.courses {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
+.nav {
+  flex: 0 0 auto;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+}
+.menus {
+  /* flex: 1 0 20%; */
+  background-color: rgb(197, 18, 42);
+  display: flex;
+  flex-direction: column;
+  min-width: 20vw;
+}
+.toggle-button {
+  /* flex: 1 0 20%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu {
+  flex: 0 0 10%;
+  background-color: gold;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.menu h3:hover {
+  color: white;
+}
+.navigation {
+  flex: 0 0 auto;
+  background-color: blueviolet;
+}
+.view {
+  flex: 1 0 80%;
+  background-color: rgb(205, 212, 210);
+  overflow-y: scroll;
+}
+p {
+  background-color: white;
+  min-height: 10vh;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}

@@ -1,0 +1,437 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "name": "general chemistry",
+      "questions": [
+        "write the theories of atomic structure",
+        "write the theories of atomic structure",
+        "write the theories of atomic structure",
+        "write the theories of atomic structure",
+        "write the theories of atomic structure"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "organic chemistry",
+      "questions": ["write the theories of organic"]
+    },
+    {
+      "id": 3,
+      "name": "physical chemistry",
+      "questions": ["write the theories of physical structure"]
+    },
+    {
+      "id": 4,
+      "name": "nuclear chemistry",
+      "questions": ["write the theories of nuclear structure"]
+    },
+    {
+      "name": "spectroscopy",
+      "id": 5,
+      "questions": []
+    },
+    {
+      "name": "psychology",
+      "id": 6,
+      "questions": []
+    },
+    {
+      "name": "chemistry",
+      "id": 7,
+      "questions": []
+    },
+    {
+      "name": "radiology",
+      "id": 8,
+      "questions": []
+    },
+    {
+      "name": "radiocology",
+      "id": 9,
+      "questions": []
+    }
+  ],
+  "questions": [
+    {
+      "topic": "general chemistry",
+      "id": 1,
+      "question": "state the postulates of daltons atomic theory"
+    },
+    {
+      "topic": "general chemistry",
+      "id": 2,
+      "question": "state the assumptions of bohr-rutherford atomic theory"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 3,
+      "question": "discuss how to determine molecular structure"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 4,
+      "question": "how infarared spectroscopy is used"
+    },
+    {
+      "topic": "organic chemistry",
+      "id": 5,
+      "question": "how double and triple bonds are formed"
+    },
+    {
+      "topic": null,
+      "id": 6,
+      "question": null
+    },
+    {
+      "topic": "general chemistry",
+      "id": 7,
+      "question": "state heinsenberg uncertainty principle"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    },
+    {
+      "topic": "spectroscopy",
+      "id": 8,
+      "question": "what are the principles of infrared spectroscopy"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 9,
+      "question": "determine the levels of psychological disorders"
+    },
+    {
+      "topic": "psychology",
+      "id": 10,
+      "question": "quantum mechanics"
+    }
+  ]
+}

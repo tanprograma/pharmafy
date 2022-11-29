@@ -1,0 +1,15 @@
+header {
+  height: 10vh;
+  background-color: rgb(195, 236, 236);
+}
+h3,
+h4 {
+  margin-top: 5px;
+  text-align: center;
+}
+h4 {
+  font-style: italic;
+}
+h5 {
+  text-align: right;
+}
