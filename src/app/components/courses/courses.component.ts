@@ -45,6 +45,7 @@ export class CoursesComponent implements OnInit {
     this.http.get(this.urls.db).subscribe((db) => {
       this.data.topics = db.topics;
       this.data.questions = db.questions;
+      console.log(db);
     });
   }
 
