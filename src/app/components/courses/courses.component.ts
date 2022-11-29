@@ -34,17 +34,18 @@ export class CoursesComponent implements OnInit {
     this.icon = faAngleRight;
     this.sideIcon = faAngleRight;
     // test code
-    this.http.get(this.urls.topics).subscribe((topics) => {
-      this.data.topics = topics;
-    });
-    this.http.get(this.urls.questions).subscribe((questions) => {
-      this.data.questions = questions;
-    });
-
-    // production code
-    // this.http.get(this.urls.topik).subscribe((res) => {
-    //   this.data.topiks = res.topics;
+    // this.http.get(this.urls.topics).subscribe((topics) => {
+    //   this.data.topics = topics;
     // });
+    // this.http.get(this.urls.questions).subscribe((questions) => {
+    //   this.data.questions = questions;
+    // });
+    // test code
+    // production code
+    this.http.get(this.urls.db).subscribe((db) => {
+      this.data.topics = db.topics;
+      this.data.questions = db.questions;
+    });
   }
 
   toggleView(topic: any) {

@@ -6,6 +6,6 @@ import { Injectable } from '@angular/core';
 export class DataService {
   topics: any = [];
   questions: any = [];
-  topiks: any = [];
+  // db: any = [];
   constructor() {}
 }

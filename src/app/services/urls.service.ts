@@ -4,8 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class UrlsService {
+  // dev urls
   topics = 'http://localhost:8000/topics';
   questions = 'http://localhost:8000/questions';
-  topik = './assets/db.json';
+  // production urls
+  db = './assets/db.json';
   constructor() {}
 }

@@ -14,17 +14,23 @@
     {
       "id": 2,
       "name": "organic chemistry",
-      "questions": ["write the theories of organic"]
+      "questions": [
+        "write the theories of organic"
+      ]
     },
     {
       "id": 3,
       "name": "physical chemistry",
-      "questions": ["write the theories of physical structure"]
+      "questions": [
+        "write the theories of physical structure"
+      ]
     },
     {
       "id": 4,
       "name": "nuclear chemistry",
-      "questions": ["write the theories of nuclear structure"]
+      "questions": [
+        "write the theories of nuclear structure"
+      ]
     },
     {
       "name": "spectroscopy",
@@ -49,6 +55,11 @@
     {
       "name": "radiocology",
       "id": 9,
+      "questions": []
+    },
+    {
+      "name": "IT",
+      "id": 10,
       "questions": []
     }
   ],
@@ -432,6 +443,11 @@
       "topic": "psychology",
       "id": 10,
       "question": "quantum mechanics"
+    },
+    {
+      "topic": "radiocology",
+      "id": 77,
+      "question": "kjsfjhsfjhsdkfhsdljkfh"
     }
   ]
 }
