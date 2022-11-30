@@ -8,6 +8,6 @@ export class UrlsService {
   topics = 'http://localhost:8000/topics';
   questions = 'http://localhost:8000/questions';
   // production urls
-  db = 'https://tanprograma.github.io/pharmafy/assets/db.json';
+  db = 'https://tanprograma.github.io/tandbs/pharmafy.json';
   constructor() {}
 }
