@@ -1,0 +1,16 @@
+<div class="tf qn-container">
+  <p class="question">
+    <app-snbtn [sn]="qn.sn"></app-snbtn>
+    {{ qn.question }}:
+  </p>
+  <form action="" class="choices">
+    <div class="control" *ngFor="let choice of qn.choices">
+      <input type="radio" id="{{ choice.id }}" name="t/f" />
+      <label for="head">{{ choice.choice }}</label>
+    </div>
+    <!-- <div class="control">
+      <input type="radio" id="head" name="head" />
+      <label for="head">false</label>
+    </div> -->
+  </form>
+</div>

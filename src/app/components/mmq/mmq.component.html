@@ -1,0 +1,17 @@
+<div class="mmq qn-container">
+  <p class="question"><app-snbtn [sn]="qn.sn"></app-snbtn>{{ qn.question }}:</p>
+  <form action="" class="choices">
+    <div class="control" *ngFor="let choice of qn.choices">
+      <input type="checkbox" id="{{ choice.id }}" name="{{ choice.id }}" />
+      <label for="head">{{ choice.choice }}</label>
+    </div>
+    <!-- <div class="control">
+      <input type="checkbox" id="head" name="head" />
+      <label for="head">i am a father</label>
+    </div>
+    <div class="control">
+      <input type="checkbox" id="head" name="head" />
+      <label for="head">i am a brother</label>
+    </div> -->
+  </form>
+</div>

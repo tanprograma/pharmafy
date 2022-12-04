@@ -48,10 +48,7 @@
       <button>click here to get started</button>
     </div> -->
     <div class="questions" *ngIf="'questions' == view">
-      <p *ngFor="let qn of questions">
-        <app-snbtn [sn]="qn.n"></app-snbtn>
-        {{ qn.question }}
-      </p>
+      <app-question *ngFor="let qn of questions" [qn]="qn"></app-question>
     </div>
 
     <app-forms [view]="view"></app-forms>

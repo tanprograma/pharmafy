@@ -1,1 +1,4 @@
-<p>question works!</p>
+<app-mcq *ngIf="qn.type == 'mcq'" [qn]="qn"></app-mcq>
+<app-mmq *ngIf="qn.type == 'mmq'" [qn]="qn"></app-mmq>
+<app-tf *ngIf="qn.type == 'tf'" [qn]="qn"></app-tf>
+<app-dq *ngIf="qn.type == 'dq'" [qn]="qn"></app-dq>

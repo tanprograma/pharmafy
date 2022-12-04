@@ -14,6 +14,10 @@ import { AddQuestionsComponent } from './components/add-questions/add-questions.
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SnbtnComponent } from './components/snbtn/snbtn.component';
+import { McqComponent } from './components/mcq/mcq.component';
+import { MmqComponent } from './components/mmq/mmq.component';
+import { TfComponent } from './components/tf/tf.component';
+import { DqComponent } from './components/dq/dq.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +32,10 @@ import { SnbtnComponent } from './components/snbtn/snbtn.component';
     MenuComponent,
     HeaderComponent,
     SnbtnComponent,
+    McqComponent,
+    MmqComponent,
+    TfComponent,
+    DqComponent,
   ],
   imports: [BrowserModule, FontAwesomeModule, HttpClientModule, FormsModule],
   providers: [],

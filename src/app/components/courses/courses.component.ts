@@ -55,11 +55,27 @@ export class CoursesComponent implements OnInit {
         return item.topic == topic;
       })
       .map((item: any, index: any) => {
-        item.n = index + 1;
+        item.sn = index + 1;
+        if (item.type !== 'dq') {
+          item.choices = item.choices.map((choice: any, index: any) => {
+            choice.id = index + 1;
+            return choice;
+          });
+        }
         return item;
       });
     this.view = 'questions';
   }
+  // questions = QUESTIONS.map((item: any, index: any) => {
+  //   item.sn = index + 1;
+  //   if (item.type !== 'dq') {
+  //     item.choices = item.choices.map((choice: any, index: any) => {
+  //       choice.id = index + 1;
+  //       return choice;
+  //     });
+  //   }
+  //   return item;
+  // });
   toggleForms(topic: any) {
     this.view = topic;
   }

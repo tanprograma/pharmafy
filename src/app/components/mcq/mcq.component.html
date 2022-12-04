@@ -1,0 +1,20 @@
+<div class="mcq qn-container">
+  <p class="question">
+    <app-snbtn [sn]="qn.sn"></app-snbtn>
+    select what is true:
+  </p>
+  <form action="" class="choices">
+    <div class="control" *ngFor="let choice of qn.choices">
+      <input type="radio" id="{{ choice.id }}" name="head" />
+      <label for="head">{{ choice.choice }}</label>
+    </div>
+    <!-- <div class="control">
+      <input type="radio" id="head" name="head" />
+      <label for="head">i am a father</label>
+    </div>
+    <div class="control">
+      <input type="radio" id="head" name="head" />
+      <label for="head">i am a brother</label>
+    </div> -->
+  </form>
+</div>
